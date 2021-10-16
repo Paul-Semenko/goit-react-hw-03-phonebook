@@ -1,0 +1,27 @@
+.contact__button {
+  height: 35px;
+  width: 75px;
+  border-radius: 5px;
+  color: #ffff;
+  background-color: #3cb371;
+}
+.contact__button:hover,
+.contact__button:focus {
+  background-color: rgb(212, 35, 35);
+}
+
+.contacts__list {
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  width: 25%;
+
+  list-style: none;
+}
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
